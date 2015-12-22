@@ -1,5 +1,5 @@
 
-#	SESSION BASED AUTHENTICATION
+#	TOKEN BASED AUTHENTICATION
 
 ###**AUTHENTICATION:**
 	The process of identifying an individual,usually based on a username and password. Authentication merely ensures that the individual is who he or she claims to be, but says nothing about the access rights of the individual. 
