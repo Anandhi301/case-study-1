@@ -65,4 +65,8 @@
 
 		token = RSA(user_id|expiry_date, private key)
 
+	
+	Access tokens are indeed meant to be short lived. To maintain authorization for a long period of time, OAuth2 has something called "refresh tokens".
+
+	If the provider supports it (and both Google and Facebook do), the OAuth2 consumer can request a refresh token in addition to the access token during the initial flow (Google calls that "offline access" I believe). The access token is used normally but when it expires, the consumer can request a new access token using its credentials and the refresh token.
 
